@@ -8,6 +8,8 @@ A lightweight Pengu Loader script that removes League activity-center clutter an
 - Removes League center activity content for an empty canvas.
 - Removes League activity background image and blend layer.
 - Removes top navigation TFT and LoR entries.
+- Removes TFT selector cards from the Play interface.
+- Removes social notifications, Add Folder, Options, and Report Bug buttons.
 - Adds a right-nav collapse toggle (`>` / `<`) for the top-right nav block.
 - Persists right-nav collapsed state in `localStorage`.
 

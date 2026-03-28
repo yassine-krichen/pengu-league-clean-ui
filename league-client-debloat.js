@@ -127,7 +127,12 @@
       '.menu_item_navbar_tft',
       '.deep-links-promo',
       '.deep-links-promo-element',
-      '.launch-lor-button-container'
+      '.launch-lor-button-container',
+
+      // Play screen TFT selector card.
+      '.game-type-card[data-game-mode="TFT"]',
+      '[data-game-mode="TFT"]',
+      '.game-type-card[data-map-id="22"]'
     ]);
 
     ensureRightNavCollapseControl();
