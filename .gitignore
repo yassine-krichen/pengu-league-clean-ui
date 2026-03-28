@@ -1,0 +1,6 @@
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+pengu-loader-v1.1.6-setup.exe
+temp.html
