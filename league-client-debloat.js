@@ -50,6 +50,10 @@
         font-size: 12px;
         line-height: 1;
         padding: 0;
+        position: relative;
+        z-index: 9999;
+        pointer-events: auto !important;
+        -webkit-app-region: no-drag;
       }
 
       ${RIGHT_NAV_SELECTOR}.${RIGHT_NAV_COLLAPSED_CLASS} > *:not(.pengu-right-nav-toggle) {
@@ -111,6 +115,13 @@
       '.activity-center__background-component_container',
       '.activity-center__background-component__image',
       '.activity-center__background-component__blend',
+
+      // Social panel cleanup.
+      'lol-player-notifications-button.notifications-button',
+      '.notifications-button',
+      '.lol-social-actions-bar .folder-button',
+      '.lol-social-actions-bar .options-button',
+      '.bug-report-button',
 
       // TFT and LoR top buttons.
       '.menu_item_navbar_tft',
